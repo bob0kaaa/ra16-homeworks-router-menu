@@ -11,4 +11,4 @@ function NotFoundPage() {
     )
 }
 
-export default TimeAttackPage
+export default NotFoundPage

@@ -22,7 +22,9 @@ function Menu() {
           key={item.path}
           to={item.path}
           end={item.end}
-          className={({ isActive }) => isActive ? 'menu__item menu__item-active' : 'menu__item'}
+          className={({ isActive }) =>
+              `menu__item${isActive ? ' menu__item-active' : ''}`
+          }
         >
           {item.label}
         </NavLink>
